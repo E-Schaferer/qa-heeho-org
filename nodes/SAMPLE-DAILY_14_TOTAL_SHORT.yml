@@ -1,0 +1,48 @@
+steps:
+  DAILY_14_TOTAL_SHORT-71583b2b-4f35-492a-80c5-c3fb7510aaac:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationName: SAMPLE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: d4a1e6b0-81bd-464a-b80d-2ca8e7def43c
+              stepCounter: 71583b2b-4f35-492a-80c5-c3fb7510aaac
+            config: {}
+            dataType: VARIANT
+            defaultValue: ""
+            description: ""
+            name: V
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 028f574f-a2ec-400f-bc4a-c3b7bbe95685
+              stepCounter: 71583b2b-4f35-492a-80c5-c3fb7510aaac
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: T
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SAMPLE', 'DAILY_14_TOTAL_SHORT') }}
+      name: DAILY_14_TOTAL_SHORT
+      schema: ""
+      sqlType: Source
+      table: DAILY_14_TOTAL_SHORT
+      type: sourceInput
+    stepCounter: 71583b2b-4f35-492a-80c5-c3fb7510aaac
