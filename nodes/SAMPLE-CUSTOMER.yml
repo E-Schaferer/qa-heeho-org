@@ -5,7 +5,7 @@ steps:
       dataset: ""
       deployEnabled: true
       description: ""
-      locationName: WORK
+      locationName: SAMPLE
       metadata:
         columns:
           - acceptedValues:
